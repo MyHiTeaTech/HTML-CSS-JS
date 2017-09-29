@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .half {
@@ -29,25 +29,40 @@ h1, h2, h3, h4, h5, h6, p {
   padding-right: 5%;
 }
 
+#info-container > div {
+  width: 75%;
+}
+
 #info > * {
   margin-top: -15px;
 }
 
 .name {
   text-transform: uppercase;
-  letter-spacing: 1px;
+  color: rgb(58, 46, 53);
+}
+
+.desc {
+  color: rgb(105, 103, 102);
+  line-height: 125%;
+}
+
+.desc-text {
+  font-size: 14px;
 }
 
 .profile-button {
-  padding: 1px 32px;
+  padding: 8px 20px;
   background-color: #F76B1D;
   color: #fff;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  display: inline-block;
   border-radius: 5px;
-  margin-bottom: 20px;
+}
+
+.profile-button > p {
+  margin: 0px;
 }
 
 #tags {
@@ -56,12 +71,33 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #tags > p {
-  margin: -2px 3px;
+  margin: 3px 10px 3px 0;
   font-size: 12px;
   color: grey;
+  font-style: italic;
 }
 
 .profilepic {
   width: 100%;
   height: 100%;
+}
+
+#experience {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.experience-child {
+  padding-right: 150px;
+  margin: 10px 0;
+}
+
+.experience-child > p {
+  font-size: 12px;
+}
+
+#social > a > i {
+  font-size: 34px;
+  color: rgb(112, 124, 131);
+  padding-right: 10px;
 }
