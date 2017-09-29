@@ -39,11 +39,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .profile-button {
-  padding: 5px 0;
-  height: 50px;
-  width: 100px;
+  padding: 1px 32px;
   background-color: #F76B1D;
   color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 #tags {
@@ -57,3 +61,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: grey;
 }
 
+.profilepic {
+  width: 100%;
+  height: 100%;
+}
