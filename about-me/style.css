@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #info-container {
-  background-color: #E1E1E1;
+  background-color: #fff;
   flex-direction: column;
   align-items: flex-start;
   padding-left: 10%;
@@ -35,7 +35,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 .name {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.profile-button {
+  padding: 5px 0;
+  height: 50px;
+  width: 100px;
+  background-color: #F76B1D;
+  color: #fff;
 }
 
 #tags {
@@ -44,6 +52,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #tags > p {
-  margin-right: 5px;
+  margin: -2px 3px;
+  font-size: 12px;
+  color: grey;
 }
 
